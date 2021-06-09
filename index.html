@@ -6,30 +6,30 @@
   </head>
   <body>
     <nav>
-      <p><img src="codepath.svg"></p>
+      <p><img src="codepath.svg" /></p>
     </nav>
     <main class="col">
       <h2 class="title">Codepath Report Card</h2>
       <div class="student card row">
         <div class="info col">
           <p class="item">
-            <span class="label">Name</span>            
+            <span class="label">Name</span>
             <span id="student-name">{{STUDENT_NAME}}</span>
           </p>
           <p class="item">
-            <span class="label">Advisor</span>            
+            <span class="label">Advisor</span>
             <span id="student-advisor">{{STUDENT_ADVISOR}}</span>
           </p>
           <p class="item">
-            <span class="label">Major</span>            
+            <span class="label">Major</span>
             <span id="student-major">{{STUDENT_MAJOR}}</span>
-          </p>          
+          </p>
           <p class="item">
-            <span class="label">Grade</span>            
+            <span class="label">Grade</span>
             <span id="student-grade-level">{{STUDENT_GRADE}}</span>
           </p>
           <p>
-            <span class="label">Graduation Year:</span>            
+            <span class="label">Graduation Year:</span>
             <span id="student-graduation-year">2023</span>
           </p>
         </div>
@@ -40,40 +40,32 @@
 
       <div class="options card col">
         <div class="row">
-          <p>Select Semester</p>          
+          <p>Select Semester</p>
         </div>
         <div class="row">
           <div class="semester-dropdown">
             <div class="dropdown closed">
               <h2 class="dropdown-button" role="button">
                 <span class="dropdown-label">Spring Semester</span>
-                <span class="dropdown-icon">∆</span>   
+                <span class="dropdown-icon">∆</span>
               </h2>
               <ul class="dropdown-menu">
                 <li id="fall-semester">Fall Semester</li>
                 <li id="spring-semester">Spring Semester</li>
                 <li id="winter-term">Winter Term</li>
-              </ul>  
-            </div>          
+              </ul>
+            </div>
           </div>
           <div class="actions">
-            <button class="btn">
-              Filter Results
-            </button>
-          </div>          
+            <button class="btn">Filter Results</button>
+          </div>
         </div>
-
-
       </div>
       <div class="report-card card">
-
-        <div id="report-card-table" class="report-card-table">
-                                                            
-        </div>
-        
+        <div id="report-card-table" class="report-card-table"></div>
       </div>
     </main>
-    
+
     <script src="script.js"></script>
-  </body>  
+  </body>
 </html>
